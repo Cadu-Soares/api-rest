@@ -1,0 +1,26 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Criação de uma API RESTful utilizando Node Js, Hapi e MongoDB.",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cadu-Soares/api-rest.git"
+  },
+  "author": "Cadu Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cadu-Soares/api-rest/issues"
+  },
+  "homepage": "https://github.com/Cadu-Soares/api-rest#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
